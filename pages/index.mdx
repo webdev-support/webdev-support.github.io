@@ -1,11 +1,27 @@
-# Introduction
- 
-Welcome to Nextra! This is a basic docs template. You can use it as a starting point for your own project :)
+# WebView碎片化的原因
 
-## What is Nextra?
+### WebView碎片化的原因：
 
-A **simple**, **powerful** and **flexible** site generation framework with everything you love from Next.js.
+1. 多厂商定制：不同手机厂商对基于Android系统的WebView进行定制，导致WebView内核的版本和功能存在差异。
+2. 系统更新滞后：部分手机厂商未及时更新其系统，导致WebView无法获得最新版本的更新。
+3. 部分手机厂商限制切换：某些手机厂商限制用户切换到Android System WebView，使得用户无法更新并切换到Google WebView。
+4. 网络限制：由于网络问题，国内用户无法通过Google Play Store更新WebView。
 
-## Documentation
+#### WebView碎片化造成的成本：
 
-The documentation is available at [https://nextra.site](https://nextra.site).
+1. 兼容性测试：开发人员需要针对不同厂商的WebView进行兼容性测试，增加了开发成本和时间投入。手机/电视盒子/车机等设备，巨大的WebView版本差异。
+2. 功能开发受限：受限于WebView的版本和功能差异，开发人员无法充分利用最新的WebView功能，限制了应用功能的开发。
+3. 安全漏洞：旧版本的WebView可能存在安全漏洞，增加了应用的安全风险。
+4. 第三方依赖：应用使用的第三方JavaScript/CSS库可能不支持较低版本的WebView，因此需要频繁进行修改以兼容低版本WebView。
+
+#### WebView碎片化解决方案：
+
+1. 应用嵌入GeckoView：GeckoView是Mozilla提供的一个开源的WebView组件，可提供稳定的、统一的WebView体验，减少不同厂商定制所带来的差异。
+2. 应用嵌入Chromium WebView：Chromium WebView是基于Chromium项目的WebView实现，具备先进的功能和性能，并且能够及时获得最新的更新。
+
+通过采用以上解决方案，可以降低WebView碎片化带来的开发成本，提高应用的兼容性和安全性。
+
+
+
+
+
