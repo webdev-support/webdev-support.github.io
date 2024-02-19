@@ -4,6 +4,10 @@
 
 资源下载: 
 
+#### Github下载:
 -    [GeckoView测试 HybirApp](https://github.com/webdev-support/webdev-support.github.io/releases/download/v1.0.4/geckoview-test.apk)
 -    [WebApk-微博](https://github.com/webdev-support/webdev-support.github.io/releases/download/v1.0.4/weibo.apk)
 -    [WebApk-IT之家](https://github.com/webdev-support/webdev-support.github.io/releases/download/v1.0.4/ithome.apk)
+
+#### 蓝奏云下载:
+https://wwm.lanzn.com/b0498pegh 密码:23hy
