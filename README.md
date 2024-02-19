@@ -1,23 +1,9 @@
-# Nextra Docs Template 
+## 2024年安卓碎片化解决方案
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+1. GeckoView 解决方案
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+资源下载: 
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
-
-## Quick Start
-
-Click the button to clone this repository and deploy it on Vercel:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
-
-## Local Development
-
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
+-    [GeckoView测试 HybirApp](https://github.com/webdev-support/webdev-support.github.io/releases/download/v1.0.4/geckoview-test.apk)
+-    [WebApk-微博](https://github.com/webdev-support/webdev-support.github.io/releases/download/v1.0.4/weibo.apk)
+-    [WebApk-IT之家](https://github.com/webdev-support/webdev-support.github.io/releases/download/v1.0.4/ithome.apk)
